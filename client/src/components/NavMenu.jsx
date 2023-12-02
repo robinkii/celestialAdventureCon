@@ -1,6 +1,6 @@
 const NavMenu = () => {
   return (
-    <div className='navbar bg-[#190482]/20'>
+    <div className='navbar bg-primary sticky top-0'>
       <div className='w-full h-full flex justify-end'>
         <ul className='px-8'>
           <li className='inline-block px-4 py-2 text-white hover:text-slate-500'>

@@ -6,15 +6,17 @@ export default {
   daisyui: {
     themes: [
       {
-        primary: '#190482',
-        secondary: '#7752FE',
-        accent: '#8E8FFA',
-        neutral: '#050609',
-        'base-100': '#ffffff',
-        info: '#00a1c9',
-        success: '#10A19D',
-        warning: '#FFBA86',
-        error: '#F6635C',
+        myTheme: {
+          primary: '#004fff',
+          secondary: '#006dff',
+          accent: '#88b900',
+          neutral: '#181818',
+          'base-100': '#1d2c2b',
+          info: '#00ceff',
+          success: '#3b8900',
+          warning: '#ffac00',
+          error: '#c81f41',
+        },
       },
     ],
   },
