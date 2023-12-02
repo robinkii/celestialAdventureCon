@@ -1,9 +1,9 @@
-import NavMenu from './NavMenu';
+import NavMenu from './components/NavMenu';
 
 function App() {
   return (
-    <div>
-      <p className='text-6xl'>Hello World</p>
+    <div className='w-full h-screen'>
+      <NavMenu />
     </div>
   );
 }
