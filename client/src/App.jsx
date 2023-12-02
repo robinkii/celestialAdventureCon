@@ -1,3 +1,5 @@
+import NavMenu from './NavMenu';
+
 function App() {
   return (
     <div>
