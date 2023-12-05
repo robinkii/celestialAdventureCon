@@ -5,9 +5,9 @@ import Location from './pages/Location';
 function App() {
   return (
     <div className='w-full h-screen'>
-      <NavMenu />
-      <HomePage />
-      {/* <Location /> */}
+      {/* <NavMenu />
+      <HomePage /> */}
+      <Location />
     </div>
   );
 }
