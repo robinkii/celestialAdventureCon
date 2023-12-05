@@ -1,13 +1,17 @@
 import backgroundImage from '../assets/homeBackground.jpg';
-import HomeHero from '../components/HomeHero';
+import HeroContainer from '../components/HeroContainer';
 
 const HomePage = () => {
   return (
     <div
-      className='w-full h-screen m-0 p-0 bg-no-repeat bg-cover bg-center'
-      style={{ backgroundImage: `url(${backgroundImage})` }}
+      className='w-full h-screen m-0 p-0'
+      style={{
+        backgroundImage: `url(${backgroundImage})`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+      }}
     >
-      <HomeHero />
+      <HeroContainer />
     </div>
   );
 };
